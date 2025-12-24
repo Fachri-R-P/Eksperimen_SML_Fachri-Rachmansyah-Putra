@@ -42,7 +42,7 @@ def save_data(df, output_path):
     df.to_csv(output_path, index=False)
 
 def main():
-    input_path = '../data/air_quality/airquality.csv'
+    input_path = '../airquality_raw/air_quality/airquality.csv'
     output_path = '../preprocessing/airquality_preprocessing.csv'
 
     df = load_data(input_path)
